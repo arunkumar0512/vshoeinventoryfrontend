@@ -128,7 +128,7 @@ const Home = () => {
           </div>
         </section>
 
-        <footer  style={{marginTop:'80vh'}}>
+        <footer  style={{marginTop:'30vh'}}>
           <div className="footer-content">
             <p>&copy; 2024 Shoe Store</p>
           </div>
