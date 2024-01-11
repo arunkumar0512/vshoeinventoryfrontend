@@ -152,14 +152,17 @@ const Login = () => {
         </Form.Group>
 
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" >
           Login
-        </Button>
-        <br />
-        <br />
+        </Button><br /><br />
+
+        
+       
 
 
-        <button onClick={handleregister}>Register</button>
+        <button onClick={handleregister} >Register</button><br /><br />
+        
+
       </Form>
     </>
   );

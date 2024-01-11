@@ -102,7 +102,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section><br /><br />
 
         <section className="customer-reviews">
           <div className="section-title">

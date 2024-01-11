@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <div   style={{marginTop:'150px'}}    className="about-page-container">
+    <div   style={{marginTop:'150px',height:'100vh'}}    className="about-page-container">
       <div className="about-content">
         <h1>About Us</h1>
         <p>Welcome to the enchanted world of our Shoe Emporium!</p>
@@ -28,6 +28,7 @@ const About = () => {
           <p>India</p>
         </section>
       </div>
+      <div style={{height:'10vh'}}></div>
     </div>
   );
 };
