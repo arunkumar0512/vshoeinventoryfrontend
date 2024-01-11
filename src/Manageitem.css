@@ -1,0 +1,67 @@
+/* Add this CSS to your stylesheets */
+
+.table-container {
+  margin: 100px;
+}
+
+.table {
+  width: 1000px;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 2px solid #3498db; /* Blue color for borders */
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Add alternating row colors for better readability */
+tbody tr:nth-child(even) {
+  background-color: #ecf0f1; /* Light gray color for even rows */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff; /* White color for odd rows */
+}
+
+/* Add hover effect to table rows */
+tr:hover {
+  background-color: #3498db; /* Blue color on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Style the delete button */
+.confirm-button {
+  background-color: red;
+  color: azure;
+  border: none;
+  cursor: pointer;
+}
+
+.confirm-button:hover {
+  background-color: darkred;
+}
+
+/* Optional: Style the header */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+nav{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: dotted 2px;
+    
+    
+}
+
+  
